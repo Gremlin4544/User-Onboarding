@@ -1,0 +1,44 @@
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+input {
+    width: 75%;
+    padding: 3%;
+    margin: 1%;
+    font-size: 1rem;
+    border-radius: 16px;
+    border: 1px solid #23bae9;
+}
+
+.checkbox-container input {
+    width: 20px;
+    height: 20px;
+}
+
+label.checkbox-container {
+    padding: 3vh 2vw;
+    font-size: 1.5rem;
+}
+
+span {
+    color: #23bae9;
+    width: 50%;
+}
+
+button {
+    font-size: 1.25rem;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-left: 33%;
+    margin-top: 2vh;
+    padding: 1.25vh 0;
+    border-radius: 16px;
+    border: none;
+}
